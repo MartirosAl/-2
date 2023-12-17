@@ -11,7 +11,7 @@ int main()
    FILE* file = fopen("text.txt", "r");
    if (file == NULL)
    {
-      printf("Невозможно открыть файл. \n");
+      printf("РќРµРІРѕР·РјРѕР¶РЅРѕ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р». \n");
       return 1;
    }
 
@@ -25,11 +25,11 @@ int main()
       if (my_strcmp0(car[i].M_a, "Ford") && car[i].Data_r.year < 2000)
       {
          printf_s("-----------------------------------------\n");
-         printf_s("Марка автомобиля: %s\n", car[i].M_a);
-         printf_s("Производитель: %s\n", car[i].proizv);
-         printf_s("Тип: %s\n", car[i].type);
-         printf_s("Год выпуска: %d\n", car[i].G_v);
-         printf_s("Дата регистрации: %d %d %d\n", car[i].Data_r.day, car[i].Data_r.month, car[i].Data_r.year);
+         printf_s("РњР°СЂРєР° Р°РІС‚РѕРјРѕР±РёР»СЏ: %s\n", car[i].M_a);
+         printf_s("РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ: %s\n", car[i].proizv);
+         printf_s("РўРёРї: %s\n", car[i].type);
+         printf_s("Р“РѕРґ РІС‹РїСѓСЃРєР°: %d\n", car[i].G_v);
+         printf_s("Р”Р°С‚Р° СЂРµРіРёСЃС‚СЂР°С†РёРё: %d %d %d\n", car[i].Data_r.day, car[i].Data_r.month, car[i].Data_r.year);
       }
    }
 
